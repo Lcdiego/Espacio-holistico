@@ -59,3 +59,26 @@
     margin-right: 15px;
 }
 }
+.contenedor_descripcion {
+
+    height: 82%;
+    display: flex;
+    align-items: center;
+}
+.imagen_descripcion{
+    width: 38%;
+}
+.imagen_buda{
+    margin-left: 73px;
+}
+.descripcion {
+    display: flex;
+    align-items: center;
+    height: 40vh;
+    width: 42%;
+   
+}
+.parrafo{
+    font-size: 20px;
+    color: white;
+}

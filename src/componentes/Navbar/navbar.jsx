@@ -16,7 +16,7 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import flor from './img/imagen_5.png'; // Reemplaza 'ruta/de/tu/imagen.jpg' con la ruta real de tu imagen
 import nombreLogo from'./img/img-6.png';
-
+import buda from './img/img-8.png'
 
 
 
@@ -114,7 +114,7 @@ function Navbar() {
               textDecoration: 'none',
             }}
           >
-            LOGO
+           
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
@@ -163,9 +163,17 @@ function Navbar() {
              
     <div className='contenedor_flor' >
     <div className='flor_de_loto'> </div> 
-   
-     
-     </div>
+    </div>
+
+    <div className='condenedor_descripcion'>
+      <div className='imagen_descripcion'>
+        <img className='imagen_buda' src={buda} alt="" />
+      </div>
+      <div className='descripcion'>
+       <p className='parrafo'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit reiciendis ab aut maxime numquam harum repellat beatae eaque explicabo eligendi, ea inventore unde veniam pariatur quisquam ipsa iure. Accusantium, assumenda!</p> 
+      </div>
+    </div>
+
     </div>
     
   );

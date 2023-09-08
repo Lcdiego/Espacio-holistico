@@ -29,6 +29,17 @@
     width: 73vh;
 }
 
-.carousel .control-next.control-arrow{
-    width: 56%;
+
+.carousel.carousel-slider .control-arrow:hover{
+    background: none;
+}
+.carousel .control-next.control-arrow {
+    right: 26%;
+}
+.carousel .control-prev.control-arrow {
+    left: 26%;
+
+}
+.carousel .control-arrow, .carousel.carousel-slider .control-arrow{
+    opacity: 1;
 }
