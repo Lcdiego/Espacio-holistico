@@ -1,0 +1,61 @@
+
+:root{
+    margin: -8px;
+    padding: 0px;
+ 
+}
+.contenedor_navbar{
+    width: 102vw;
+    height: 102vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url("./img/img-1.jpg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+/* navbar.css */
+.transparent-appbar {
+    background-color: transparent !important;
+    box-shadow: none !important;
+  }
+  .css-1t6c9ts {
+   
+    display: flex;
+    justify-content: space-evenly;
+}
+.css-19r6kue-MuiContainer-root{
+    margin-top: 35px;
+}
+.css-6hp17o-MuiList-root-MuiMenu-list {
+    
+        width: 227px;
+        height: 145px;
+    
+}
+
+.css-19r6kue-MuiContainer-root {
+    max-width: 1622px;
+}
+@media (min-width:0px){
+.css-z5gn4u-MuiSvgIcon-root {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    display: none !important;
+}
+.css-1lfs2tq-MuiTypography-root {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    display: none !important;
+}
+.css-1lvtzne {
+   
+    display: flex;
+    justify-content: center ;
+    margin-right: 15px;
+}
+}
