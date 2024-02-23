@@ -43,3 +43,6 @@
 .carousel .control-arrow, .carousel.carousel-slider .control-arrow{
     opacity: 1;
 }
+.carousel-container .control-next {
+    font-size: 24px;
+}

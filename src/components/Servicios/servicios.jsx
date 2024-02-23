@@ -1,6 +1,7 @@
 import React from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
+
 import './servicios.css';
 
 class ServiciosCarousel extends React.Component {
@@ -20,18 +21,20 @@ class ServiciosCarousel extends React.Component {
     const { currentIndex } = this.state;
     this.setState({ currentIndex: currentIndex - 1 });
   };
+  
 
   render() {
     const { currentIndex } = this.state;
 
     return (
       <div className="custom-carousel-container">
-       
+        <Carousel showThumbs={false}></Carousel>
         <Carousel
           showThumbs={false}
           showStatus={false}
           selectedItem={currentIndex} // Establece el elemento seleccionado en función del estado currentIndex
           onChange={(index) => this.setState({ currentIndex: index })} // Actualiza el estado currentIndex al cambiar de diapositiva
+          
         >
          
 <div>

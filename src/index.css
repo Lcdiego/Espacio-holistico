@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.contenedor_HomePage {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../public/img/img-1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contenedor-img-loto {
+  width: 39vw;
+  height: 75vh;
+  background-image: url("../public/img/imagen_5.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
