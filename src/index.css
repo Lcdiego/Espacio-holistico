@@ -10,11 +10,14 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  
 }
 
 .contenedor-img-loto {
-  width: 39vw;
-  height: 75vh;
+  width: 31vw;
+  height: 56vh;
   background-image: url("../public/img/imagen_5.png");
   background-position: center;
   background-size: cover;
